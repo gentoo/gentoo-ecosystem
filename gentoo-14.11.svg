@@ -750,7 +750,7 @@ style='opacity:0.6;' >
   <path id='__line_Jollix' d='M 974 447 C 1097.75,447 1015.25,205 1139,205 L 1139 205 L 1246 205' stroke='#ffee55' style='stroke-width:4;' marker-end='url(#__stop_Jollix)' />
   <path id='__line_Knopperdisk' d='M 1118 447 C 1236.5,447 1157.5,227 1276,227 L 1276 227 L 1531 227' stroke='#06C000' style='stroke-width:4;' marker-end='url(#__stop_Knopperdisk)' />
   <path id='__line_Pentoo' d='M 1168 447 C 1280.5,447 1205.5,249 1318,249 L 1318 249 L 2295 249' stroke='#000100' style='stroke-width:4;' />
-  <path id='__line_Pardus' d='M 1202 447 C 1307.75,447 1237.25,271 1343,271 L 1343 271 L 2168 271' stroke='#FDB500' style='stroke-width:4;' marker-end='url(#__stop_Pardus)' />
+  <path id='__line_Pardus' d='M 1202 447 C 1307.75,447 1237.25,271 1343,271 L 1343 271 L 2172 271' stroke='#FDB500' style='stroke-width:4;' marker-end='url(#__stop_Pardus)' />
   <path id='__line_Bintoo' d='M 1271 447 C 1370,447 1304,293 1403,293 L 1403 293 L 1510 293' stroke='#89c8e9' style='stroke-width:4;' marker-end='url(#__stop_Bintoo)' />
   <path id='__line_Papug' d='M 1371 447 C 1462.5,447 1401.5,315 1493,315 L 1493 315 L 2101 315' stroke='#0082ff' style='stroke-width:4;' marker-end='url(#__stop_Papug)' />
   <path id='__line_Toorox' d='M 1489 447 C 1572.25,447 1516.75,337 1600,337 L 1600 337 L 2295 337' stroke='#333333' style='stroke-width:4;' />
@@ -769,6 +769,7 @@ style='opacity:0.6;' >
   <path id='__line_SystemRescueCD' d='M 1485 447 C 1590.75,447 1520.25,623 1626,623 L 1626 623 L 2295 623' stroke='#508fee' style='stroke-width:4;' />
   <path id='__line_Calculate' d='M 1402 447 C 1514.5,447 1439.5,645 1552,645 L 1552 645 L 2295 645' stroke='#faa61a' style='stroke-width:4;' />
   <path id='__line_Kororaa' d='M 1246 447 C 1364.5,447 1285.5,667 1404,667 L 1404 667 L 1594 667' stroke='#706f7f' style='stroke-width:4;' marker-end='url(#__stop_Kororaa)' />
+  <path id='__line_Spike' d='M 2189 689 C 2226.5,689 2201.5,711 2239,711 L 2239 711 L 2295 711' stroke='#000000' style='stroke-width:4;' />
   <path id='__line_RR4' d='M 1220 447 C 1343.75,447 1261.25,689 1385,689 L 1385 689 L 2295 689' stroke='#e9b689' style='stroke-width:4;' />
   <path id='__line_epiOS' d='M 1153 447 C 1282.75,447 1196.25,711 1326,711 L 1326 711 L 1585 711' stroke='#2181B0' style='stroke-width:4;' marker-end='url(#__stop_epiOS)' />
   <path id='__line_VidaLinux' d='M 1105 447 C 1240,447 1150,733 1285,733 L 1285 733 L 1801 733' stroke='#718969' style='stroke-width:4;' marker-end='url(#__stop_VidaLinux)' />
@@ -809,6 +810,7 @@ style='opacity:0.6;' >
   <circle id='__dot_SystemRescueCD' cx='1626' cy='623' r='7' fill='#508fee' stroke='none' />
   <circle id='__dot_Calculate' cx='1552' cy='645' r='7' fill='#faa61a' stroke='none' />
   <circle id='__dot_Kororaa' cx='1404' cy='667' r='7' fill='#706f7f' stroke='none' />
+  <circle id='__dot_Spike' cx='2239' cy='711' r='7' fill='#000000' stroke='none' />
   <circle id='__dot_RR4' cx='1385' cy='689' r='7' fill='#e9b689' stroke='none' />
     <circle cx='1472' cy='689' r='5' fill='#e9b689' stroke='none' />
   <circle id='__dot_epiOS' cx='1326' cy='711' r='7' fill='#2181B0' stroke='none' />
@@ -847,7 +849,7 @@ style='opacity:0.6;' >
   <rect x='1323' y='232' width='47' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
   <a xlink:href='http://www.pentoo.ch/'><text x='1325' y='244'  >Pentoo</text></a>
   <rect x='1348' y='254' width='47' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href=''><text x='1350' y='266'  >Pardus</text></a>
+  <a xlink:href='http://www.pardus.org.tr/'><text x='1350' y='266'  >Pardus</text></a>
   <rect x='1408' y='276' width='42' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
   <a xlink:href='http://bintoo.sourceforge.net/'><text x='1410' y='288'  >Bintoo</text></a>
   <rect x='1498' y='298' width='43' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
@@ -884,6 +886,8 @@ style='opacity:0.6;' >
   <a xlink:href='http://www.calculate-linux.org/'><text x='1559' y='640'  >Calculate</text></a>
   <rect x='1409' y='650' width='53' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
   <a xlink:href='http://en.wikipedia.org/wiki/Kororaa'><text x='1411' y='662'  >Kororaa</text></a>
+  <rect x='2244' y='694' width='37' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.spike-pentesting.org'><text x='2246' y='706'  >Spike</text></a>
   <rect x='1390' y='672' width='29' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
   <a xlink:href='http://sabayonlinux.org/'><text x='1392' y='684'  >RR4</text></a>
     <rect x='1475' y='672' width='59' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
