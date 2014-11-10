@@ -56,6 +56,9 @@
   <marker id='__connector_5' stroke='none' markerUnits='userSpaceOnUse' style='overflow:visible;'>
     <use xlink:href='#__connectors_start' fill='#000000'  />
   </marker>
+  <marker id='__connector_6' stroke='none' markerUnits='userSpaceOnUse' style='overflow:visible;'>
+    <use xlink:href='#__connectors_start' fill='#000000'  />
+  </marker>
 <rect id='__fadeout' height='1' width='6' y='-0.5' x='0'/>  <linearGradient id='__fadeout_Jollix' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
     <stop stop-color='#ffee55' offset='0' stop-opacity='1' />
     <stop stop-color='#ffee55' offset='1' stop-opacity='0' />
@@ -740,9 +743,10 @@ style='opacity:0.6;' >
   <line x1='1026' y1='445' x2='1026' y2='73' stroke='#a0a0f0' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_0)' />
   <line x1='1294' y1='445' x2='1294' y2='139' stroke='#000000' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_1)' />
   <line x1='1648' y1='445' x2='1648' y2='161' stroke='#000000' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_2)' />
-  <line x1='2239' y1='251' x2='2239' y2='711' stroke='#000000' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_3)' />
-  <line x1='793' y1='819' x2='793' y2='447' stroke='#000000' stroke-width='1' stroke-dasharray='1,1' marker-start='url(#__connector_4)' />
-  <line x1='743' y1='907' x2='743' y2='447' stroke='#000000' stroke-width='1' stroke-dasharray='1,1' marker-start='url(#__connector_5)' />
+  <line x1='1978' y1='251' x2='1978' y2='447' stroke='#000000' stroke-width='1' stroke-dasharray='1,1' marker-start='url(#__connector_3)' />
+  <line x1='2239' y1='251' x2='2239' y2='711' stroke='#000000' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_4)' />
+  <line x1='793' y1='819' x2='793' y2='447' stroke='#000000' stroke-width='1' stroke-dasharray='1,1' marker-start='url(#__connector_5)' />
+  <line x1='743' y1='907' x2='743' y2='447' stroke='#000000' stroke-width='1' stroke-dasharray='1,1' marker-start='url(#__connector_6)' />
 </g>
 
 <g inkscape:label='Lines' inkscape:groupmode='layer' id='layer_lines'
