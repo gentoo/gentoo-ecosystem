@@ -12,10 +12,10 @@
   xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
   version='1.1'
   width='2420'
-  height='762'
+  height='982'
 >
 
-<title>Gentoo Ecosystem</title>
+<title>The Gentoo Ecosystem</title>
 
 <defs>
 
@@ -42,12 +42,15 @@
     <use xlink:href='#__connectors_start' fill='#a0a0f0'  />
   </marker>
   <marker id='__connector_1' stroke='none' markerUnits='userSpaceOnUse' style='overflow:visible;'>
-    <use xlink:href='#__connectors_start' fill='#a0a0f0'  />
+    <use xlink:href='#__connectors_start' fill='#B0E0F0'  />
   </marker>
   <marker id='__connector_2' stroke='none' markerUnits='userSpaceOnUse' style='overflow:visible;'>
-    <use xlink:href='#__connectors_start' fill='#ff0000'  />
+    <use xlink:href='#__connectors_start' fill='#a0a0f0'  />
   </marker>
   <marker id='__connector_3' stroke='none' markerUnits='userSpaceOnUse' style='overflow:visible;'>
+    <use xlink:href='#__connectors_start' fill='#ff0000'  />
+  </marker>
+  <marker id='__connector_4' stroke='none' markerUnits='userSpaceOnUse' style='overflow:visible;'>
     <use xlink:href='#__connectors_start' fill='#866846'  />
   </marker>
 <rect id='__fadeout' height='1' width='6' y='-0.5' x='0'/>  <linearGradient id='__fadeout_Jollix' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
@@ -57,12 +60,19 @@
   <marker id='__stop_Jollix' markerWidth='6' markerHeight='1' style='overflow:visible;'>
     <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Jollix)' />
   </marker>
-  <linearGradient id='__fadeout_epiOS' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
-    <stop stop-color='#2181B0' offset='0' stop-opacity='1' />
-    <stop stop-color='#2181B0' offset='1' stop-opacity='0' />
+  <linearGradient id='__fadeout_Knopperdisk' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#06C000' offset='0' stop-opacity='1' />
+    <stop stop-color='#06C000' offset='1' stop-opacity='0' />
   </linearGradient>
-  <marker id='__stop_epiOS' markerWidth='6' markerHeight='1' style='overflow:visible;'>
-    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_epiOS)' />
+  <marker id='__stop_Knopperdisk' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Knopperdisk)' />
+  </marker>
+  <linearGradient id='__fadeout_Pardus' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#FDB500' offset='0' stop-opacity='1' />
+    <stop stop-color='#FDB500' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Pardus' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Pardus)' />
   </marker>
   <linearGradient id='__fadeout_Bintoo' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
     <stop stop-color='#89c8e9' offset='0' stop-opacity='1' />
@@ -70,6 +80,48 @@
   </linearGradient>
   <marker id='__stop_Bintoo' markerWidth='6' markerHeight='1' style='overflow:visible;'>
     <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Bintoo)' />
+  </marker>
+  <linearGradient id='__fadeout_Papug' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#0082ff' offset='0' stop-opacity='1' />
+    <stop stop-color='#0082ff' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Papug' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Papug)' />
+  </marker>
+  <linearGradient id='__fadeout_Liberté' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#114488' offset='0' stop-opacity='1' />
+    <stop stop-color='#114488' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Liberté' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Liberté)' />
+  </marker>
+  <linearGradient id='__fadeout_VLOS' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#718969' offset='0' stop-opacity='1' />
+    <stop stop-color='#718969' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_VLOS' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_VLOS)' />
+  </marker>
+  <linearGradient id='__fadeout_Kororaa' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#706f7f' offset='0' stop-opacity='1' />
+    <stop stop-color='#706f7f' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Kororaa' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Kororaa)' />
+  </marker>
+  <linearGradient id='__fadeout_epiOS' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#2181B0' offset='0' stop-opacity='1' />
+    <stop stop-color='#2181B0' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_epiOS' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_epiOS)' />
+  </marker>
+  <linearGradient id='__fadeout_VidaLinux' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#718969' offset='0' stop-opacity='1' />
+    <stop stop-color='#718969' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_VidaLinux' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_VidaLinux)' />
   </marker>
   <linearGradient id='__fadeout_Navyn__OS' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
     <stop stop-color='#224488' offset='0' stop-opacity='1' />
@@ -382,299 +434,299 @@
 </defs>
 
 <g inkscape:label='Background' inkscape:groupmode='layer' id='layer_background' >
-  <rect x='0' y='0' width='2420' height='762' rx='11' ry='11' fill='#fff' />
+  <rect x='0' y='0' width='2420' height='982' rx='11' ry='11' fill='#fff' />
 </g>
 
 <g inkscape:label='Year Rulers' inkscape:groupmode='layer' id='layer_yearrulers' stroke-width='1' stroke='#f0f0f0'>
-  <line x1='10' y1='0' x2='10' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='18' y1='0' x2='18' y2='762' />
-    <line x1='26' y1='0' x2='26' y2='762' />
-    <line x1='35' y1='0' x2='35' y2='762' />
-    <line x1='43' y1='0' x2='43' y2='762' />
-    <line x1='51' y1='0' x2='51' y2='762' />
-    <line x1='60' y1='0' x2='60' y2='762' />
-    <line x1='68' y1='0' x2='68' y2='762' />
-    <line x1='76' y1='0' x2='76' y2='762' />
-    <line x1='85' y1='0' x2='85' y2='762' />
-    <line x1='93' y1='0' x2='93' y2='762' />
-    <line x1='101' y1='0' x2='101' y2='762' />
-  <line x1='110' y1='0' x2='110' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='118' y1='0' x2='118' y2='762' />
-    <line x1='126' y1='0' x2='126' y2='762' />
-    <line x1='135' y1='0' x2='135' y2='762' />
-    <line x1='143' y1='0' x2='143' y2='762' />
-    <line x1='151' y1='0' x2='151' y2='762' />
-    <line x1='160' y1='0' x2='160' y2='762' />
-    <line x1='168' y1='0' x2='168' y2='762' />
-    <line x1='176' y1='0' x2='176' y2='762' />
-    <line x1='185' y1='0' x2='185' y2='762' />
-    <line x1='193' y1='0' x2='193' y2='762' />
-    <line x1='201' y1='0' x2='201' y2='762' />
-  <line x1='210' y1='0' x2='210' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='218' y1='0' x2='218' y2='762' />
-    <line x1='226' y1='0' x2='226' y2='762' />
-    <line x1='235' y1='0' x2='235' y2='762' />
-    <line x1='243' y1='0' x2='243' y2='762' />
-    <line x1='251' y1='0' x2='251' y2='762' />
-    <line x1='260' y1='0' x2='260' y2='762' />
-    <line x1='268' y1='0' x2='268' y2='762' />
-    <line x1='276' y1='0' x2='276' y2='762' />
-    <line x1='285' y1='0' x2='285' y2='762' />
-    <line x1='293' y1='0' x2='293' y2='762' />
-    <line x1='301' y1='0' x2='301' y2='762' />
-  <line x1='310' y1='0' x2='310' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='318' y1='0' x2='318' y2='762' />
-    <line x1='326' y1='0' x2='326' y2='762' />
-    <line x1='335' y1='0' x2='335' y2='762' />
-    <line x1='343' y1='0' x2='343' y2='762' />
-    <line x1='351' y1='0' x2='351' y2='762' />
-    <line x1='360' y1='0' x2='360' y2='762' />
-    <line x1='368' y1='0' x2='368' y2='762' />
-    <line x1='376' y1='0' x2='376' y2='762' />
-    <line x1='385' y1='0' x2='385' y2='762' />
-    <line x1='393' y1='0' x2='393' y2='762' />
-    <line x1='401' y1='0' x2='401' y2='762' />
-  <line x1='410' y1='0' x2='410' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='418' y1='0' x2='418' y2='762' />
-    <line x1='426' y1='0' x2='426' y2='762' />
-    <line x1='435' y1='0' x2='435' y2='762' />
-    <line x1='443' y1='0' x2='443' y2='762' />
-    <line x1='451' y1='0' x2='451' y2='762' />
-    <line x1='460' y1='0' x2='460' y2='762' />
-    <line x1='468' y1='0' x2='468' y2='762' />
-    <line x1='476' y1='0' x2='476' y2='762' />
-    <line x1='485' y1='0' x2='485' y2='762' />
-    <line x1='493' y1='0' x2='493' y2='762' />
-    <line x1='501' y1='0' x2='501' y2='762' />
-  <line x1='510' y1='0' x2='510' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='518' y1='0' x2='518' y2='762' />
-    <line x1='526' y1='0' x2='526' y2='762' />
-    <line x1='535' y1='0' x2='535' y2='762' />
-    <line x1='543' y1='0' x2='543' y2='762' />
-    <line x1='551' y1='0' x2='551' y2='762' />
-    <line x1='560' y1='0' x2='560' y2='762' />
-    <line x1='568' y1='0' x2='568' y2='762' />
-    <line x1='576' y1='0' x2='576' y2='762' />
-    <line x1='585' y1='0' x2='585' y2='762' />
-    <line x1='593' y1='0' x2='593' y2='762' />
-    <line x1='601' y1='0' x2='601' y2='762' />
-  <line x1='610' y1='0' x2='610' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='618' y1='0' x2='618' y2='762' />
-    <line x1='626' y1='0' x2='626' y2='762' />
-    <line x1='635' y1='0' x2='635' y2='762' />
-    <line x1='643' y1='0' x2='643' y2='762' />
-    <line x1='651' y1='0' x2='651' y2='762' />
-    <line x1='660' y1='0' x2='660' y2='762' />
-    <line x1='668' y1='0' x2='668' y2='762' />
-    <line x1='676' y1='0' x2='676' y2='762' />
-    <line x1='685' y1='0' x2='685' y2='762' />
-    <line x1='693' y1='0' x2='693' y2='762' />
-    <line x1='701' y1='0' x2='701' y2='762' />
-  <line x1='710' y1='0' x2='710' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='718' y1='0' x2='718' y2='762' />
-    <line x1='726' y1='0' x2='726' y2='762' />
-    <line x1='735' y1='0' x2='735' y2='762' />
-    <line x1='743' y1='0' x2='743' y2='762' />
-    <line x1='751' y1='0' x2='751' y2='762' />
-    <line x1='760' y1='0' x2='760' y2='762' />
-    <line x1='768' y1='0' x2='768' y2='762' />
-    <line x1='776' y1='0' x2='776' y2='762' />
-    <line x1='785' y1='0' x2='785' y2='762' />
-    <line x1='793' y1='0' x2='793' y2='762' />
-    <line x1='801' y1='0' x2='801' y2='762' />
-  <line x1='810' y1='0' x2='810' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='818' y1='0' x2='818' y2='762' />
-    <line x1='826' y1='0' x2='826' y2='762' />
-    <line x1='835' y1='0' x2='835' y2='762' />
-    <line x1='843' y1='0' x2='843' y2='762' />
-    <line x1='851' y1='0' x2='851' y2='762' />
-    <line x1='860' y1='0' x2='860' y2='762' />
-    <line x1='868' y1='0' x2='868' y2='762' />
-    <line x1='876' y1='0' x2='876' y2='762' />
-    <line x1='885' y1='0' x2='885' y2='762' />
-    <line x1='893' y1='0' x2='893' y2='762' />
-    <line x1='901' y1='0' x2='901' y2='762' />
-  <line x1='910' y1='0' x2='910' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='918' y1='0' x2='918' y2='762' />
-    <line x1='926' y1='0' x2='926' y2='762' />
-    <line x1='935' y1='0' x2='935' y2='762' />
-    <line x1='943' y1='0' x2='943' y2='762' />
-    <line x1='951' y1='0' x2='951' y2='762' />
-    <line x1='960' y1='0' x2='960' y2='762' />
-    <line x1='968' y1='0' x2='968' y2='762' />
-    <line x1='976' y1='0' x2='976' y2='762' />
-    <line x1='985' y1='0' x2='985' y2='762' />
-    <line x1='993' y1='0' x2='993' y2='762' />
-    <line x1='1001' y1='0' x2='1001' y2='762' />
-  <line x1='1010' y1='0' x2='1010' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1018' y1='0' x2='1018' y2='762' />
-    <line x1='1026' y1='0' x2='1026' y2='762' />
-    <line x1='1035' y1='0' x2='1035' y2='762' />
-    <line x1='1043' y1='0' x2='1043' y2='762' />
-    <line x1='1051' y1='0' x2='1051' y2='762' />
-    <line x1='1060' y1='0' x2='1060' y2='762' />
-    <line x1='1068' y1='0' x2='1068' y2='762' />
-    <line x1='1076' y1='0' x2='1076' y2='762' />
-    <line x1='1085' y1='0' x2='1085' y2='762' />
-    <line x1='1093' y1='0' x2='1093' y2='762' />
-    <line x1='1101' y1='0' x2='1101' y2='762' />
-  <line x1='1110' y1='0' x2='1110' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1118' y1='0' x2='1118' y2='762' />
-    <line x1='1126' y1='0' x2='1126' y2='762' />
-    <line x1='1135' y1='0' x2='1135' y2='762' />
-    <line x1='1143' y1='0' x2='1143' y2='762' />
-    <line x1='1151' y1='0' x2='1151' y2='762' />
-    <line x1='1160' y1='0' x2='1160' y2='762' />
-    <line x1='1168' y1='0' x2='1168' y2='762' />
-    <line x1='1176' y1='0' x2='1176' y2='762' />
-    <line x1='1185' y1='0' x2='1185' y2='762' />
-    <line x1='1193' y1='0' x2='1193' y2='762' />
-    <line x1='1201' y1='0' x2='1201' y2='762' />
-  <line x1='1210' y1='0' x2='1210' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1218' y1='0' x2='1218' y2='762' />
-    <line x1='1226' y1='0' x2='1226' y2='762' />
-    <line x1='1235' y1='0' x2='1235' y2='762' />
-    <line x1='1243' y1='0' x2='1243' y2='762' />
-    <line x1='1251' y1='0' x2='1251' y2='762' />
-    <line x1='1260' y1='0' x2='1260' y2='762' />
-    <line x1='1268' y1='0' x2='1268' y2='762' />
-    <line x1='1276' y1='0' x2='1276' y2='762' />
-    <line x1='1285' y1='0' x2='1285' y2='762' />
-    <line x1='1293' y1='0' x2='1293' y2='762' />
-    <line x1='1301' y1='0' x2='1301' y2='762' />
-  <line x1='1310' y1='0' x2='1310' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1318' y1='0' x2='1318' y2='762' />
-    <line x1='1326' y1='0' x2='1326' y2='762' />
-    <line x1='1335' y1='0' x2='1335' y2='762' />
-    <line x1='1343' y1='0' x2='1343' y2='762' />
-    <line x1='1351' y1='0' x2='1351' y2='762' />
-    <line x1='1360' y1='0' x2='1360' y2='762' />
-    <line x1='1368' y1='0' x2='1368' y2='762' />
-    <line x1='1376' y1='0' x2='1376' y2='762' />
-    <line x1='1385' y1='0' x2='1385' y2='762' />
-    <line x1='1393' y1='0' x2='1393' y2='762' />
-    <line x1='1401' y1='0' x2='1401' y2='762' />
-  <line x1='1410' y1='0' x2='1410' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1418' y1='0' x2='1418' y2='762' />
-    <line x1='1426' y1='0' x2='1426' y2='762' />
-    <line x1='1435' y1='0' x2='1435' y2='762' />
-    <line x1='1443' y1='0' x2='1443' y2='762' />
-    <line x1='1451' y1='0' x2='1451' y2='762' />
-    <line x1='1460' y1='0' x2='1460' y2='762' />
-    <line x1='1468' y1='0' x2='1468' y2='762' />
-    <line x1='1476' y1='0' x2='1476' y2='762' />
-    <line x1='1485' y1='0' x2='1485' y2='762' />
-    <line x1='1493' y1='0' x2='1493' y2='762' />
-    <line x1='1501' y1='0' x2='1501' y2='762' />
-  <line x1='1510' y1='0' x2='1510' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1518' y1='0' x2='1518' y2='762' />
-    <line x1='1526' y1='0' x2='1526' y2='762' />
-    <line x1='1535' y1='0' x2='1535' y2='762' />
-    <line x1='1543' y1='0' x2='1543' y2='762' />
-    <line x1='1551' y1='0' x2='1551' y2='762' />
-    <line x1='1560' y1='0' x2='1560' y2='762' />
-    <line x1='1568' y1='0' x2='1568' y2='762' />
-    <line x1='1576' y1='0' x2='1576' y2='762' />
-    <line x1='1585' y1='0' x2='1585' y2='762' />
-    <line x1='1593' y1='0' x2='1593' y2='762' />
-    <line x1='1601' y1='0' x2='1601' y2='762' />
-  <line x1='1610' y1='0' x2='1610' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1618' y1='0' x2='1618' y2='762' />
-    <line x1='1626' y1='0' x2='1626' y2='762' />
-    <line x1='1635' y1='0' x2='1635' y2='762' />
-    <line x1='1643' y1='0' x2='1643' y2='762' />
-    <line x1='1651' y1='0' x2='1651' y2='762' />
-    <line x1='1660' y1='0' x2='1660' y2='762' />
-    <line x1='1668' y1='0' x2='1668' y2='762' />
-    <line x1='1676' y1='0' x2='1676' y2='762' />
-    <line x1='1685' y1='0' x2='1685' y2='762' />
-    <line x1='1693' y1='0' x2='1693' y2='762' />
-    <line x1='1701' y1='0' x2='1701' y2='762' />
-  <line x1='1710' y1='0' x2='1710' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1718' y1='0' x2='1718' y2='762' />
-    <line x1='1726' y1='0' x2='1726' y2='762' />
-    <line x1='1735' y1='0' x2='1735' y2='762' />
-    <line x1='1743' y1='0' x2='1743' y2='762' />
-    <line x1='1751' y1='0' x2='1751' y2='762' />
-    <line x1='1760' y1='0' x2='1760' y2='762' />
-    <line x1='1768' y1='0' x2='1768' y2='762' />
-    <line x1='1776' y1='0' x2='1776' y2='762' />
-    <line x1='1785' y1='0' x2='1785' y2='762' />
-    <line x1='1793' y1='0' x2='1793' y2='762' />
-    <line x1='1801' y1='0' x2='1801' y2='762' />
-  <line x1='1810' y1='0' x2='1810' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1818' y1='0' x2='1818' y2='762' />
-    <line x1='1826' y1='0' x2='1826' y2='762' />
-    <line x1='1835' y1='0' x2='1835' y2='762' />
-    <line x1='1843' y1='0' x2='1843' y2='762' />
-    <line x1='1851' y1='0' x2='1851' y2='762' />
-    <line x1='1860' y1='0' x2='1860' y2='762' />
-    <line x1='1868' y1='0' x2='1868' y2='762' />
-    <line x1='1876' y1='0' x2='1876' y2='762' />
-    <line x1='1885' y1='0' x2='1885' y2='762' />
-    <line x1='1893' y1='0' x2='1893' y2='762' />
-    <line x1='1901' y1='0' x2='1901' y2='762' />
-  <line x1='1910' y1='0' x2='1910' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='1918' y1='0' x2='1918' y2='762' />
-    <line x1='1926' y1='0' x2='1926' y2='762' />
-    <line x1='1935' y1='0' x2='1935' y2='762' />
-    <line x1='1943' y1='0' x2='1943' y2='762' />
-    <line x1='1951' y1='0' x2='1951' y2='762' />
-    <line x1='1960' y1='0' x2='1960' y2='762' />
-    <line x1='1968' y1='0' x2='1968' y2='762' />
-    <line x1='1976' y1='0' x2='1976' y2='762' />
-    <line x1='1985' y1='0' x2='1985' y2='762' />
-    <line x1='1993' y1='0' x2='1993' y2='762' />
-    <line x1='2001' y1='0' x2='2001' y2='762' />
-  <line x1='2010' y1='0' x2='2010' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='2018' y1='0' x2='2018' y2='762' />
-    <line x1='2026' y1='0' x2='2026' y2='762' />
-    <line x1='2035' y1='0' x2='2035' y2='762' />
-    <line x1='2043' y1='0' x2='2043' y2='762' />
-    <line x1='2051' y1='0' x2='2051' y2='762' />
-    <line x1='2060' y1='0' x2='2060' y2='762' />
-    <line x1='2068' y1='0' x2='2068' y2='762' />
-    <line x1='2076' y1='0' x2='2076' y2='762' />
-    <line x1='2085' y1='0' x2='2085' y2='762' />
-    <line x1='2093' y1='0' x2='2093' y2='762' />
-    <line x1='2101' y1='0' x2='2101' y2='762' />
-  <line x1='2110' y1='0' x2='2110' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='2118' y1='0' x2='2118' y2='762' />
-    <line x1='2126' y1='0' x2='2126' y2='762' />
-    <line x1='2135' y1='0' x2='2135' y2='762' />
-    <line x1='2143' y1='0' x2='2143' y2='762' />
-    <line x1='2151' y1='0' x2='2151' y2='762' />
-    <line x1='2160' y1='0' x2='2160' y2='762' />
-    <line x1='2168' y1='0' x2='2168' y2='762' />
-    <line x1='2176' y1='0' x2='2176' y2='762' />
-    <line x1='2185' y1='0' x2='2185' y2='762' />
-    <line x1='2193' y1='0' x2='2193' y2='762' />
-    <line x1='2201' y1='0' x2='2201' y2='762' />
-  <line x1='2210' y1='0' x2='2210' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='2218' y1='0' x2='2218' y2='762' />
-    <line x1='2226' y1='0' x2='2226' y2='762' />
-    <line x1='2235' y1='0' x2='2235' y2='762' />
-    <line x1='2243' y1='0' x2='2243' y2='762' />
-    <line x1='2251' y1='0' x2='2251' y2='762' />
-    <line x1='2260' y1='0' x2='2260' y2='762' />
-    <line x1='2268' y1='0' x2='2268' y2='762' />
-    <line x1='2276' y1='0' x2='2276' y2='762' />
-    <line x1='2285' y1='0' x2='2285' y2='762' />
-    <line x1='2293' y1='0' x2='2293' y2='762' />
-    <line x1='2301' y1='0' x2='2301' y2='762' />
-  <line x1='2310' y1='0' x2='2310' y2='762' stroke-width='2' stroke='#e1e1e1' />
-    <line x1='2318' y1='0' x2='2318' y2='762' />
-    <line x1='2326' y1='0' x2='2326' y2='762' />
-    <line x1='2335' y1='0' x2='2335' y2='762' />
-    <line x1='2343' y1='0' x2='2343' y2='762' />
-    <line x1='2351' y1='0' x2='2351' y2='762' />
-    <line x1='2360' y1='0' x2='2360' y2='762' />
-    <line x1='2368' y1='0' x2='2368' y2='762' />
-    <line x1='2376' y1='0' x2='2376' y2='762' />
-    <line x1='2385' y1='0' x2='2385' y2='762' />
-    <line x1='2393' y1='0' x2='2393' y2='762' />
-    <line x1='2401' y1='0' x2='2401' y2='762' />
-  <line x1='2410' y1='0' x2='2410' y2='762' stroke-width='2' stroke='#e1e1e1' />
+  <line x1='10' y1='0' x2='10' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='18' y1='0' x2='18' y2='982' />
+    <line x1='26' y1='0' x2='26' y2='982' />
+    <line x1='35' y1='0' x2='35' y2='982' />
+    <line x1='43' y1='0' x2='43' y2='982' />
+    <line x1='51' y1='0' x2='51' y2='982' />
+    <line x1='60' y1='0' x2='60' y2='982' />
+    <line x1='68' y1='0' x2='68' y2='982' />
+    <line x1='76' y1='0' x2='76' y2='982' />
+    <line x1='85' y1='0' x2='85' y2='982' />
+    <line x1='93' y1='0' x2='93' y2='982' />
+    <line x1='101' y1='0' x2='101' y2='982' />
+  <line x1='110' y1='0' x2='110' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='118' y1='0' x2='118' y2='982' />
+    <line x1='126' y1='0' x2='126' y2='982' />
+    <line x1='135' y1='0' x2='135' y2='982' />
+    <line x1='143' y1='0' x2='143' y2='982' />
+    <line x1='151' y1='0' x2='151' y2='982' />
+    <line x1='160' y1='0' x2='160' y2='982' />
+    <line x1='168' y1='0' x2='168' y2='982' />
+    <line x1='176' y1='0' x2='176' y2='982' />
+    <line x1='185' y1='0' x2='185' y2='982' />
+    <line x1='193' y1='0' x2='193' y2='982' />
+    <line x1='201' y1='0' x2='201' y2='982' />
+  <line x1='210' y1='0' x2='210' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='218' y1='0' x2='218' y2='982' />
+    <line x1='226' y1='0' x2='226' y2='982' />
+    <line x1='235' y1='0' x2='235' y2='982' />
+    <line x1='243' y1='0' x2='243' y2='982' />
+    <line x1='251' y1='0' x2='251' y2='982' />
+    <line x1='260' y1='0' x2='260' y2='982' />
+    <line x1='268' y1='0' x2='268' y2='982' />
+    <line x1='276' y1='0' x2='276' y2='982' />
+    <line x1='285' y1='0' x2='285' y2='982' />
+    <line x1='293' y1='0' x2='293' y2='982' />
+    <line x1='301' y1='0' x2='301' y2='982' />
+  <line x1='310' y1='0' x2='310' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='318' y1='0' x2='318' y2='982' />
+    <line x1='326' y1='0' x2='326' y2='982' />
+    <line x1='335' y1='0' x2='335' y2='982' />
+    <line x1='343' y1='0' x2='343' y2='982' />
+    <line x1='351' y1='0' x2='351' y2='982' />
+    <line x1='360' y1='0' x2='360' y2='982' />
+    <line x1='368' y1='0' x2='368' y2='982' />
+    <line x1='376' y1='0' x2='376' y2='982' />
+    <line x1='385' y1='0' x2='385' y2='982' />
+    <line x1='393' y1='0' x2='393' y2='982' />
+    <line x1='401' y1='0' x2='401' y2='982' />
+  <line x1='410' y1='0' x2='410' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='418' y1='0' x2='418' y2='982' />
+    <line x1='426' y1='0' x2='426' y2='982' />
+    <line x1='435' y1='0' x2='435' y2='982' />
+    <line x1='443' y1='0' x2='443' y2='982' />
+    <line x1='451' y1='0' x2='451' y2='982' />
+    <line x1='460' y1='0' x2='460' y2='982' />
+    <line x1='468' y1='0' x2='468' y2='982' />
+    <line x1='476' y1='0' x2='476' y2='982' />
+    <line x1='485' y1='0' x2='485' y2='982' />
+    <line x1='493' y1='0' x2='493' y2='982' />
+    <line x1='501' y1='0' x2='501' y2='982' />
+  <line x1='510' y1='0' x2='510' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='518' y1='0' x2='518' y2='982' />
+    <line x1='526' y1='0' x2='526' y2='982' />
+    <line x1='535' y1='0' x2='535' y2='982' />
+    <line x1='543' y1='0' x2='543' y2='982' />
+    <line x1='551' y1='0' x2='551' y2='982' />
+    <line x1='560' y1='0' x2='560' y2='982' />
+    <line x1='568' y1='0' x2='568' y2='982' />
+    <line x1='576' y1='0' x2='576' y2='982' />
+    <line x1='585' y1='0' x2='585' y2='982' />
+    <line x1='593' y1='0' x2='593' y2='982' />
+    <line x1='601' y1='0' x2='601' y2='982' />
+  <line x1='610' y1='0' x2='610' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='618' y1='0' x2='618' y2='982' />
+    <line x1='626' y1='0' x2='626' y2='982' />
+    <line x1='635' y1='0' x2='635' y2='982' />
+    <line x1='643' y1='0' x2='643' y2='982' />
+    <line x1='651' y1='0' x2='651' y2='982' />
+    <line x1='660' y1='0' x2='660' y2='982' />
+    <line x1='668' y1='0' x2='668' y2='982' />
+    <line x1='676' y1='0' x2='676' y2='982' />
+    <line x1='685' y1='0' x2='685' y2='982' />
+    <line x1='693' y1='0' x2='693' y2='982' />
+    <line x1='701' y1='0' x2='701' y2='982' />
+  <line x1='710' y1='0' x2='710' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='718' y1='0' x2='718' y2='982' />
+    <line x1='726' y1='0' x2='726' y2='982' />
+    <line x1='735' y1='0' x2='735' y2='982' />
+    <line x1='743' y1='0' x2='743' y2='982' />
+    <line x1='751' y1='0' x2='751' y2='982' />
+    <line x1='760' y1='0' x2='760' y2='982' />
+    <line x1='768' y1='0' x2='768' y2='982' />
+    <line x1='776' y1='0' x2='776' y2='982' />
+    <line x1='785' y1='0' x2='785' y2='982' />
+    <line x1='793' y1='0' x2='793' y2='982' />
+    <line x1='801' y1='0' x2='801' y2='982' />
+  <line x1='810' y1='0' x2='810' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='818' y1='0' x2='818' y2='982' />
+    <line x1='826' y1='0' x2='826' y2='982' />
+    <line x1='835' y1='0' x2='835' y2='982' />
+    <line x1='843' y1='0' x2='843' y2='982' />
+    <line x1='851' y1='0' x2='851' y2='982' />
+    <line x1='860' y1='0' x2='860' y2='982' />
+    <line x1='868' y1='0' x2='868' y2='982' />
+    <line x1='876' y1='0' x2='876' y2='982' />
+    <line x1='885' y1='0' x2='885' y2='982' />
+    <line x1='893' y1='0' x2='893' y2='982' />
+    <line x1='901' y1='0' x2='901' y2='982' />
+  <line x1='910' y1='0' x2='910' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='918' y1='0' x2='918' y2='982' />
+    <line x1='926' y1='0' x2='926' y2='982' />
+    <line x1='935' y1='0' x2='935' y2='982' />
+    <line x1='943' y1='0' x2='943' y2='982' />
+    <line x1='951' y1='0' x2='951' y2='982' />
+    <line x1='960' y1='0' x2='960' y2='982' />
+    <line x1='968' y1='0' x2='968' y2='982' />
+    <line x1='976' y1='0' x2='976' y2='982' />
+    <line x1='985' y1='0' x2='985' y2='982' />
+    <line x1='993' y1='0' x2='993' y2='982' />
+    <line x1='1001' y1='0' x2='1001' y2='982' />
+  <line x1='1010' y1='0' x2='1010' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1018' y1='0' x2='1018' y2='982' />
+    <line x1='1026' y1='0' x2='1026' y2='982' />
+    <line x1='1035' y1='0' x2='1035' y2='982' />
+    <line x1='1043' y1='0' x2='1043' y2='982' />
+    <line x1='1051' y1='0' x2='1051' y2='982' />
+    <line x1='1060' y1='0' x2='1060' y2='982' />
+    <line x1='1068' y1='0' x2='1068' y2='982' />
+    <line x1='1076' y1='0' x2='1076' y2='982' />
+    <line x1='1085' y1='0' x2='1085' y2='982' />
+    <line x1='1093' y1='0' x2='1093' y2='982' />
+    <line x1='1101' y1='0' x2='1101' y2='982' />
+  <line x1='1110' y1='0' x2='1110' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1118' y1='0' x2='1118' y2='982' />
+    <line x1='1126' y1='0' x2='1126' y2='982' />
+    <line x1='1135' y1='0' x2='1135' y2='982' />
+    <line x1='1143' y1='0' x2='1143' y2='982' />
+    <line x1='1151' y1='0' x2='1151' y2='982' />
+    <line x1='1160' y1='0' x2='1160' y2='982' />
+    <line x1='1168' y1='0' x2='1168' y2='982' />
+    <line x1='1176' y1='0' x2='1176' y2='982' />
+    <line x1='1185' y1='0' x2='1185' y2='982' />
+    <line x1='1193' y1='0' x2='1193' y2='982' />
+    <line x1='1201' y1='0' x2='1201' y2='982' />
+  <line x1='1210' y1='0' x2='1210' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1218' y1='0' x2='1218' y2='982' />
+    <line x1='1226' y1='0' x2='1226' y2='982' />
+    <line x1='1235' y1='0' x2='1235' y2='982' />
+    <line x1='1243' y1='0' x2='1243' y2='982' />
+    <line x1='1251' y1='0' x2='1251' y2='982' />
+    <line x1='1260' y1='0' x2='1260' y2='982' />
+    <line x1='1268' y1='0' x2='1268' y2='982' />
+    <line x1='1276' y1='0' x2='1276' y2='982' />
+    <line x1='1285' y1='0' x2='1285' y2='982' />
+    <line x1='1293' y1='0' x2='1293' y2='982' />
+    <line x1='1301' y1='0' x2='1301' y2='982' />
+  <line x1='1310' y1='0' x2='1310' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1318' y1='0' x2='1318' y2='982' />
+    <line x1='1326' y1='0' x2='1326' y2='982' />
+    <line x1='1335' y1='0' x2='1335' y2='982' />
+    <line x1='1343' y1='0' x2='1343' y2='982' />
+    <line x1='1351' y1='0' x2='1351' y2='982' />
+    <line x1='1360' y1='0' x2='1360' y2='982' />
+    <line x1='1368' y1='0' x2='1368' y2='982' />
+    <line x1='1376' y1='0' x2='1376' y2='982' />
+    <line x1='1385' y1='0' x2='1385' y2='982' />
+    <line x1='1393' y1='0' x2='1393' y2='982' />
+    <line x1='1401' y1='0' x2='1401' y2='982' />
+  <line x1='1410' y1='0' x2='1410' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1418' y1='0' x2='1418' y2='982' />
+    <line x1='1426' y1='0' x2='1426' y2='982' />
+    <line x1='1435' y1='0' x2='1435' y2='982' />
+    <line x1='1443' y1='0' x2='1443' y2='982' />
+    <line x1='1451' y1='0' x2='1451' y2='982' />
+    <line x1='1460' y1='0' x2='1460' y2='982' />
+    <line x1='1468' y1='0' x2='1468' y2='982' />
+    <line x1='1476' y1='0' x2='1476' y2='982' />
+    <line x1='1485' y1='0' x2='1485' y2='982' />
+    <line x1='1493' y1='0' x2='1493' y2='982' />
+    <line x1='1501' y1='0' x2='1501' y2='982' />
+  <line x1='1510' y1='0' x2='1510' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1518' y1='0' x2='1518' y2='982' />
+    <line x1='1526' y1='0' x2='1526' y2='982' />
+    <line x1='1535' y1='0' x2='1535' y2='982' />
+    <line x1='1543' y1='0' x2='1543' y2='982' />
+    <line x1='1551' y1='0' x2='1551' y2='982' />
+    <line x1='1560' y1='0' x2='1560' y2='982' />
+    <line x1='1568' y1='0' x2='1568' y2='982' />
+    <line x1='1576' y1='0' x2='1576' y2='982' />
+    <line x1='1585' y1='0' x2='1585' y2='982' />
+    <line x1='1593' y1='0' x2='1593' y2='982' />
+    <line x1='1601' y1='0' x2='1601' y2='982' />
+  <line x1='1610' y1='0' x2='1610' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1618' y1='0' x2='1618' y2='982' />
+    <line x1='1626' y1='0' x2='1626' y2='982' />
+    <line x1='1635' y1='0' x2='1635' y2='982' />
+    <line x1='1643' y1='0' x2='1643' y2='982' />
+    <line x1='1651' y1='0' x2='1651' y2='982' />
+    <line x1='1660' y1='0' x2='1660' y2='982' />
+    <line x1='1668' y1='0' x2='1668' y2='982' />
+    <line x1='1676' y1='0' x2='1676' y2='982' />
+    <line x1='1685' y1='0' x2='1685' y2='982' />
+    <line x1='1693' y1='0' x2='1693' y2='982' />
+    <line x1='1701' y1='0' x2='1701' y2='982' />
+  <line x1='1710' y1='0' x2='1710' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1718' y1='0' x2='1718' y2='982' />
+    <line x1='1726' y1='0' x2='1726' y2='982' />
+    <line x1='1735' y1='0' x2='1735' y2='982' />
+    <line x1='1743' y1='0' x2='1743' y2='982' />
+    <line x1='1751' y1='0' x2='1751' y2='982' />
+    <line x1='1760' y1='0' x2='1760' y2='982' />
+    <line x1='1768' y1='0' x2='1768' y2='982' />
+    <line x1='1776' y1='0' x2='1776' y2='982' />
+    <line x1='1785' y1='0' x2='1785' y2='982' />
+    <line x1='1793' y1='0' x2='1793' y2='982' />
+    <line x1='1801' y1='0' x2='1801' y2='982' />
+  <line x1='1810' y1='0' x2='1810' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1818' y1='0' x2='1818' y2='982' />
+    <line x1='1826' y1='0' x2='1826' y2='982' />
+    <line x1='1835' y1='0' x2='1835' y2='982' />
+    <line x1='1843' y1='0' x2='1843' y2='982' />
+    <line x1='1851' y1='0' x2='1851' y2='982' />
+    <line x1='1860' y1='0' x2='1860' y2='982' />
+    <line x1='1868' y1='0' x2='1868' y2='982' />
+    <line x1='1876' y1='0' x2='1876' y2='982' />
+    <line x1='1885' y1='0' x2='1885' y2='982' />
+    <line x1='1893' y1='0' x2='1893' y2='982' />
+    <line x1='1901' y1='0' x2='1901' y2='982' />
+  <line x1='1910' y1='0' x2='1910' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1918' y1='0' x2='1918' y2='982' />
+    <line x1='1926' y1='0' x2='1926' y2='982' />
+    <line x1='1935' y1='0' x2='1935' y2='982' />
+    <line x1='1943' y1='0' x2='1943' y2='982' />
+    <line x1='1951' y1='0' x2='1951' y2='982' />
+    <line x1='1960' y1='0' x2='1960' y2='982' />
+    <line x1='1968' y1='0' x2='1968' y2='982' />
+    <line x1='1976' y1='0' x2='1976' y2='982' />
+    <line x1='1985' y1='0' x2='1985' y2='982' />
+    <line x1='1993' y1='0' x2='1993' y2='982' />
+    <line x1='2001' y1='0' x2='2001' y2='982' />
+  <line x1='2010' y1='0' x2='2010' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2018' y1='0' x2='2018' y2='982' />
+    <line x1='2026' y1='0' x2='2026' y2='982' />
+    <line x1='2035' y1='0' x2='2035' y2='982' />
+    <line x1='2043' y1='0' x2='2043' y2='982' />
+    <line x1='2051' y1='0' x2='2051' y2='982' />
+    <line x1='2060' y1='0' x2='2060' y2='982' />
+    <line x1='2068' y1='0' x2='2068' y2='982' />
+    <line x1='2076' y1='0' x2='2076' y2='982' />
+    <line x1='2085' y1='0' x2='2085' y2='982' />
+    <line x1='2093' y1='0' x2='2093' y2='982' />
+    <line x1='2101' y1='0' x2='2101' y2='982' />
+  <line x1='2110' y1='0' x2='2110' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2118' y1='0' x2='2118' y2='982' />
+    <line x1='2126' y1='0' x2='2126' y2='982' />
+    <line x1='2135' y1='0' x2='2135' y2='982' />
+    <line x1='2143' y1='0' x2='2143' y2='982' />
+    <line x1='2151' y1='0' x2='2151' y2='982' />
+    <line x1='2160' y1='0' x2='2160' y2='982' />
+    <line x1='2168' y1='0' x2='2168' y2='982' />
+    <line x1='2176' y1='0' x2='2176' y2='982' />
+    <line x1='2185' y1='0' x2='2185' y2='982' />
+    <line x1='2193' y1='0' x2='2193' y2='982' />
+    <line x1='2201' y1='0' x2='2201' y2='982' />
+  <line x1='2210' y1='0' x2='2210' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2218' y1='0' x2='2218' y2='982' />
+    <line x1='2226' y1='0' x2='2226' y2='982' />
+    <line x1='2235' y1='0' x2='2235' y2='982' />
+    <line x1='2243' y1='0' x2='2243' y2='982' />
+    <line x1='2251' y1='0' x2='2251' y2='982' />
+    <line x1='2260' y1='0' x2='2260' y2='982' />
+    <line x1='2268' y1='0' x2='2268' y2='982' />
+    <line x1='2276' y1='0' x2='2276' y2='982' />
+    <line x1='2285' y1='0' x2='2285' y2='982' />
+    <line x1='2293' y1='0' x2='2293' y2='982' />
+    <line x1='2301' y1='0' x2='2301' y2='982' />
+  <line x1='2310' y1='0' x2='2310' y2='982' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='2318' y1='0' x2='2318' y2='982' />
+    <line x1='2326' y1='0' x2='2326' y2='982' />
+    <line x1='2335' y1='0' x2='2335' y2='982' />
+    <line x1='2343' y1='0' x2='2343' y2='982' />
+    <line x1='2351' y1='0' x2='2351' y2='982' />
+    <line x1='2360' y1='0' x2='2360' y2='982' />
+    <line x1='2368' y1='0' x2='2368' y2='982' />
+    <line x1='2376' y1='0' x2='2376' y2='982' />
+    <line x1='2385' y1='0' x2='2385' y2='982' />
+    <line x1='2393' y1='0' x2='2393' y2='982' />
+    <line x1='2401' y1='0' x2='2401' y2='982' />
+  <line x1='2410' y1='0' x2='2410' y2='982' stroke-width='2' stroke='#e1e1e1' />
 </g>
 
 <g inkscape:label='Domains' inkscape:groupmode='layer' id='layer_domains' >
@@ -682,74 +734,95 @@
 
 <g inkscape:label='Connectors' inkscape:groupmode='layer' id='layer_connectors'
 style='opacity:0.6;' >
-  <line x1='1026' y1='357' x2='1026' y2='117' stroke='#a0a0f0' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_0)' />
-  <line x1='1648' y1='357' x2='1648' y2='73' stroke='#a0a0f0' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_1)' />
-  <line x1='793' y1='599' x2='793' y2='359' stroke='#ff0000' stroke-width='1' stroke-dasharray='1,1' marker-start='url(#__connector_2)' />
-  <line x1='743' y1='687' x2='743' y2='359' stroke='#866846' stroke-width='1' stroke-dasharray='1,1' marker-start='url(#__connector_3)' />
+  <line x1='1026' y1='445' x2='1026' y2='73' stroke='#a0a0f0' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_0)' />
+  <line x1='1294' y1='445' x2='1294' y2='139' stroke='#B0E0F0' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_1)' />
+  <line x1='1648' y1='445' x2='1648' y2='161' stroke='#a0a0f0' stroke-width='2' stroke-dasharray='2,2' marker-start='url(#__connector_2)' />
+  <line x1='793' y1='819' x2='793' y2='447' stroke='#ff0000' stroke-width='1' stroke-dasharray='1,1' marker-start='url(#__connector_3)' />
+  <line x1='743' y1='907' x2='743' y2='447' stroke='#866846' stroke-width='1' stroke-dasharray='1,1' marker-start='url(#__connector_4)' />
 </g>
 
 <g inkscape:label='Lines' inkscape:groupmode='layer' id='layer_lines'
  style='fill:none;stroke-width:4;' >
-  <path id='__line_Exherbo' d='M 1648 73 L 2295 73' stroke='#006600' style='stroke-width:4;' />
-  <path id='__line_Ututo-e' d='M 1176 117 C 1213.5,117 1188.5,139 1226,139 L 1226 139 L 2295 139' stroke='#d30110' style='stroke-width:4;' />
-  <path id='__line_Ututo' d='M 885 117 L 2295 117' stroke='#ba3232' style='stroke-width:4;' />
-  <path id='__line_Jollix' d='M 998 359 C 1103.75,359 1033.25,183 1139,183 L 1139 183 L 1246 183' stroke='#ffee55' style='stroke-width:4;' marker-end='url(#__stop_Jollix)' />
-  <path id='__line_VidaLinux' d='M 1153 359 C 1252,359 1186,205 1285,205 L 1285 205 L 2295 205' stroke='#718969' style='stroke-width:4;' />
-  <path id='__line_epiOS' d='M 1204 359 C 1295.5,359 1234.5,227 1326,227 L 1326 227 L 1585 227' stroke='#2181B0' style='stroke-width:4;' marker-end='url(#__stop_epiOS)' />
-  <path id='__line_Bintoo' d='M 1292 359 C 1375.25,359 1319.75,249 1403,249 L 1403 249 L 1510 249' stroke='#89c8e9' style='stroke-width:4;' marker-end='url(#__stop_Bintoo)' />
-  <path id='__line_Papug' d='M 1393 359 C 1468,359 1418,271 1493,271 L 1493 271 L 2295 271' stroke='#0082ff' style='stroke-width:4;' />
-  <path id='__line_Toorox' d='M 1514 359 C 1578.5,359 1535.5,293 1600,293 L 1600 293 L 2295 293' stroke='#333333' style='stroke-width:4;' />
-  <path id='__line_Funtoo' d='M 1606 359 C 1658.5,359 1623.5,315 1676,315 L 1676 315 L 2295 315' stroke='#333399' style='stroke-width:4;' />
-  <path id='__line_Chromium__OS' d='M 1801 359 C 1838.5,359 1813.5,337 1851,337 L 1851 337 L 2295 337' stroke='#224488' style='stroke-width:4;' />
-  <path id='__line_Gentoox' d='M 976 359 C 1088.5,359 1013.5,557 1126,557 L 1126 557 L 2295 557' stroke='#0050ff' style='stroke-width:4;' />
-  <path id='__line_AnikOS' d='M 1898 359 C 1935.5,359 1910.5,381 1948,381 L 1948 381 L 2295 381' stroke='#333333' style='stroke-width:4;' />
-  <path id='__line_Liberté' d='M 1774 359 C 1826.5,359 1791.5,403 1844,403 L 1844 403 L 2295 403' stroke='#114488' style='stroke-width:4;' />
-  <path id='__line_SystemRescueCD' d='M 1540 359 C 1604.5,359 1561.5,425 1626,425 L 1626 425 L 2295 425' stroke='#508fee' style='stroke-width:4;' />
-  <path id='__line_Calculate' d='M 1452 359 C 1527,359 1477,447 1552,447 L 1552 447 L 2295 447' stroke='#faa61a' style='stroke-width:4;' />
-  <path id='__line_Kororaa' d='M 1293 359 C 1376.25,359 1320.75,469 1404,469 L 1404 469 L 2295 469' stroke='#706f7f' style='stroke-width:4;' />
-  <path id='__line_RR4' d='M 1263 359 C 1354.5,359 1293.5,491 1385,491 L 1385 491 L 2295 491' stroke='#e9b689' style='stroke-width:4;' />
-  <path id='__line_Pentoo' d='M 1186 359 C 1285,359 1219,513 1318,513 L 1318 513 L 2295 513' stroke='#000100' style='stroke-width:4;' />
-  <path id='__line_Navyn__OS' d='M 1110 359 C 1215.75,359 1145.25,535 1251,535 L 1251 535 L 1310 535' stroke='#224488' style='stroke-width:4;' marker-end='url(#__stop_Navyn__OS)' />
-  <path id='__line_Enoch' d='M 735 359 L 2295 359' stroke='#a0a0f0' style='stroke-width:4;' />
-  <path id='__line_FreeBSD' d='M 193 601 L 2295 601' stroke='#ff0000' style='stroke-width:4;' />
-  <path id='__line_Stampede' d='M 551 667 C 588.5,667 563.5,689 601,689 L 601 689 L 1026 689' stroke='#866846' style='stroke-width:4;' marker-end='url(#__stop_Stampede)' />
-  <path id='__line_Slackware' d='M 114 645 C 151.5,645 126.5,667 164,667 L 164 667 L 2295 667' stroke='#000' style='stroke-width:4;' />
-  <path id='__line_SLS' d='M 51 645 L 210 645' stroke='#9c8ac4' style='stroke-width:4;' marker-end='url(#__stop_SLS)' />
+  <path id='__line_Ututo-e' d='M 1176 73 C 1213.5,73 1188.5,95 1226,95 L 1226 95 L 2295 95' stroke='#d30110' style='stroke-width:4;' />
+  <path id='__line_Ututo' d='M 885 73 L 2295 73' stroke='#ba3232' style='stroke-width:4;' />
+  <path id='__line_GoboLinux' d='M 1294 139 L 2295 139' stroke='#B0E0F0' style='stroke-width:4;' />
+  <path id='__line_Exherbo' d='M 1648 161 L 2295 161' stroke='#006600' style='stroke-width:4;' />
+  <path id='__line_Jollix' d='M 974 447 C 1097.75,447 1015.25,205 1139,205 L 1139 205 L 1246 205' stroke='#ffee55' style='stroke-width:4;' marker-end='url(#__stop_Jollix)' />
+  <path id='__line_Knopperdisk' d='M 1118 447 C 1236.5,447 1157.5,227 1276,227 L 1276 227 L 1531 227' stroke='#06C000' style='stroke-width:4;' marker-end='url(#__stop_Knopperdisk)' />
+  <path id='__line_Pentoo' d='M 1168 447 C 1280.5,447 1205.5,249 1318,249 L 1318 249 L 2295 249' stroke='#000100' style='stroke-width:4;' />
+  <path id='__line_Pardus' d='M 1202 447 C 1307.75,447 1237.25,271 1343,271 L 1343 271 L 2168 271' stroke='#FDB500' style='stroke-width:4;' marker-end='url(#__stop_Pardus)' />
+  <path id='__line_Bintoo' d='M 1271 447 C 1370,447 1304,293 1403,293 L 1403 293 L 1510 293' stroke='#89c8e9' style='stroke-width:4;' marker-end='url(#__stop_Bintoo)' />
+  <path id='__line_Papug' d='M 1371 447 C 1462.5,447 1401.5,315 1493,315 L 1493 315 L 2101 315' stroke='#0082ff' style='stroke-width:4;' marker-end='url(#__stop_Papug)' />
+  <path id='__line_Toorox' d='M 1489 447 C 1572.25,447 1516.75,337 1600,337 L 1600 337 L 2295 337' stroke='#333333' style='stroke-width:4;' />
+  <path id='__line_Tin__Hat__Linux' d='M 1567 447 C 1642,447 1592,359 1667,359 L 1667 359 L 2295 359' stroke='#929292' style='stroke-width:4;' />
+  <path id='__line_Fireball' d='M 1640 447 C 1704.5,447 1661.5,381 1726,381 L 1726 381 L 2295 381' stroke='#ff0000' style='stroke-width:4;' />
+  <path id='__line_Liberté' d='M 1774 447 C 1826.5,447 1791.5,403 1844,403 L 1844 403 L 2201 403' stroke='#114488' style='stroke-width:4;' marker-end='url(#__stop_Liberté)' />
+  <path id='__line_Bicom__Systems__PBXware' d='M 2132 447 C 2169.5,447 2144.5,425 2182,425 L 2182 425 L 2295 425' stroke='#39C000' style='stroke-width:4;' />
+  <path id='__line_Gentoox' d='M 933 447 C 1077.75,447 981.25,777 1126,777 L 1126 777 L 2295 777' stroke='#0050ff' style='stroke-width:4;' />
+  <path id='__line_AnikOS' d='M 1898 447 C 1935.5,447 1910.5,469 1948,469 L 1948 469 L 2295 469' stroke='#333333' style='stroke-width:4;' />
+  <path id='__line_CoreOS' d='M 2135 513 C 2172.5,513 2147.5,491 2185,491 L 2185 491 L 2295 491' stroke='#419EDA' style='stroke-width:4;' />
+  <path id='__line_Google__Chrome__OS' d='M 1818 513 C 1818,513 1818,535 1818,535 L 1818 535 L 2295 535' stroke='#224488' style='stroke-width:4;' />
+  <path id='__line_Chromium__OS' d='M 1732 447 C 1796.5,447 1753.5,513 1818,513 L 1818 513 L 2295 513' stroke='#224488' style='stroke-width:4;' />
+  <path id='__line_GaryOS' d='M 2170 579 C 2207.5,579 2182.5,557 2220,557 L 2220 557 L 2295 557' stroke='#333333' style='stroke-width:4;' />
+  <path id='__line_VLOS' d='M 1851 579 C 1888.5,579 1863.5,601 1901,601 L 1901 601 L 2101 601' stroke='#718969' style='stroke-width:4;' marker-end='url(#__stop_VLOS)' />
+  <path id='__line_Funtoo' d='M 1554 447 C 1645.5,447 1584.5,579 1676,579 L 1676 579 L 2295 579' stroke='#333399' style='stroke-width:4;' />
+  <path id='__line_SystemRescueCD' d='M 1485 447 C 1590.75,447 1520.25,623 1626,623 L 1626 623 L 2295 623' stroke='#508fee' style='stroke-width:4;' />
+  <path id='__line_Calculate' d='M 1402 447 C 1514.5,447 1439.5,645 1552,645 L 1552 645 L 2295 645' stroke='#faa61a' style='stroke-width:4;' />
+  <path id='__line_Kororaa' d='M 1246 447 C 1364.5,447 1285.5,667 1404,667 L 1404 667 L 1594 667' stroke='#706f7f' style='stroke-width:4;' marker-end='url(#__stop_Kororaa)' />
+  <path id='__line_RR4' d='M 1220 447 C 1343.75,447 1261.25,689 1385,689 L 1385 689 L 2295 689' stroke='#e9b689' style='stroke-width:4;' />
+  <path id='__line_epiOS' d='M 1153 447 C 1282.75,447 1196.25,711 1326,711 L 1326 711 L 1585 711' stroke='#2181B0' style='stroke-width:4;' marker-end='url(#__stop_epiOS)' />
+  <path id='__line_VidaLinux' d='M 1105 447 C 1240,447 1150,733 1285,733 L 1285 733 L 1801 733' stroke='#718969' style='stroke-width:4;' marker-end='url(#__stop_VidaLinux)' />
+  <path id='__line_Navyn__OS' d='M 1064 447 C 1204.25,447 1110.75,755 1251,755 L 1251 755 L 1310 755' stroke='#224488' style='stroke-width:4;' marker-end='url(#__stop_Navyn__OS)' />
+  <path id='__line_Enoch' d='M 735 447 L 2295 447' stroke='#a0a0f0' style='stroke-width:4;' />
+  <path id='__line_FreeBSD' d='M 193 821 L 2295 821' stroke='#ff0000' style='stroke-width:4;' />
+  <path id='__line_Stampede' d='M 551 887 C 588.5,887 563.5,909 601,909 L 601 909 L 1026 909' stroke='#866846' style='stroke-width:4;' marker-end='url(#__stop_Stampede)' />
+  <path id='__line_Slackware' d='M 114 865 C 151.5,865 126.5,887 164,887 L 164 887 L 2295 887' stroke='#000' style='stroke-width:4;' />
+  <path id='__line_SLS' d='M 51 865 L 210 865' stroke='#9c8ac4' style='stroke-width:4;' marker-end='url(#__stop_SLS)' />
 </g>
 
 <g inkscape:label='Dots' inkscape:groupmode='layer' id='layer_dots'
  style='stroke:none;' >
-  <circle id='__dot_Exherbo' cx='1648' cy='73' r='7' fill='#006600' stroke='none' />
-  <circle id='__dot_Ututo-e' cx='1226' cy='139' r='7' fill='#d30110' stroke='none' />
-  <circle id='__dot_Ututo' cx='885' cy='117' r='7' fill='#ba3232' stroke='none' />
-    <circle cx='1351' cy='117' r='5' fill='#ba3232' stroke='none' />
-  <circle id='__dot_Jollix' cx='1139' cy='183' r='7' fill='#ffee55' stroke='none' />
-  <circle id='__dot_VidaLinux' cx='1285' cy='205' r='7' fill='#718969' stroke='none' />
-    <circle cx='1378' cy='205' r='5' fill='#718969' stroke='none' />
-  <circle id='__dot_epiOS' cx='1326' cy='227' r='7' fill='#2181B0' stroke='none' />
-  <circle id='__dot_Bintoo' cx='1403' cy='249' r='7' fill='#89c8e9' stroke='none' />
-  <circle id='__dot_Papug' cx='1493' cy='271' r='7' fill='#0082ff' stroke='none' />
-  <circle id='__dot_Toorox' cx='1600' cy='293' r='7' fill='#333333' stroke='none' />
-  <circle id='__dot_Funtoo' cx='1676' cy='315' r='7' fill='#333399' stroke='none' />
-  <circle id='__dot_Chromium__OS' cx='1851' cy='337' r='7' fill='#224488' stroke='none' />
-  <circle id='__dot_Gentoox' cx='1126' cy='557' r='7' fill='#0050ff' stroke='none' />
-  <circle id='__dot_AnikOS' cx='1948' cy='381' r='7' fill='#333333' stroke='none' />
+  <circle id='__dot_Ututo-e' cx='1226' cy='95' r='7' fill='#d30110' stroke='none' />
+  <circle id='__dot_Ututo' cx='885' cy='73' r='7' fill='#ba3232' stroke='none' />
+    <circle cx='1351' cy='73' r='5' fill='#ba3232' stroke='none' />
+  <circle id='__dot_GoboLinux' cx='1294' cy='139' r='7' fill='#B0E0F0' stroke='none' />
+  <circle id='__dot_Exherbo' cx='1648' cy='161' r='7' fill='#006600' stroke='none' />
+  <circle id='__dot_Jollix' cx='1139' cy='205' r='7' fill='#ffee55' stroke='none' />
+  <circle id='__dot_Knopperdisk' cx='1276' cy='227' r='7' fill='#06C000' stroke='none' />
+  <circle id='__dot_Pentoo' cx='1318' cy='249' r='7' fill='#000100' stroke='none' />
+  <circle id='__dot_Pardus' cx='1343' cy='271' r='7' fill='#FDB500' stroke='none' />
+  <circle id='__dot_Bintoo' cx='1403' cy='293' r='7' fill='#89c8e9' stroke='none' />
+  <circle id='__dot_Papug' cx='1493' cy='315' r='7' fill='#0082ff' stroke='none' />
+  <circle id='__dot_Toorox' cx='1600' cy='337' r='7' fill='#333333' stroke='none' />
+  <circle id='__dot_Tin__Hat__Linux' cx='1667' cy='359' r='7' fill='#929292' stroke='none' />
+  <circle id='__dot_Fireball' cx='1726' cy='381' r='7' fill='#ff0000' stroke='none' />
   <circle id='__dot_Liberté' cx='1844' cy='403' r='7' fill='#114488' stroke='none' />
-  <circle id='__dot_SystemRescueCD' cx='1626' cy='425' r='7' fill='#508fee' stroke='none' />
-  <circle id='__dot_Calculate' cx='1552' cy='447' r='7' fill='#faa61a' stroke='none' />
-  <circle id='__dot_Kororaa' cx='1404' cy='469' r='7' fill='#706f7f' stroke='none' />
-  <circle id='__dot_RR4' cx='1385' cy='491' r='7' fill='#e9b689' stroke='none' />
-    <circle cx='1472' cy='491' r='5' fill='#e9b689' stroke='none' />
-  <circle id='__dot_Pentoo' cx='1318' cy='513' r='7' fill='#000100' stroke='none' />
-  <circle id='__dot_Navyn__OS' cx='1251' cy='535' r='7' fill='#224488' stroke='none' />
-  <circle id='__dot_Enoch' cx='735' cy='359' r='7' fill='#a0a0f0' stroke='none' />
-    <circle cx='801' cy='359' r='5' fill='#a0a0f0' stroke='none' />
-    <circle cx='901' cy='359' r='5' fill='#a0a0f0' stroke='none' />
-    <circle cx='1034' cy='359' r='5' fill='#a0a0f0' stroke='none' />
-  <circle id='__dot_FreeBSD' cx='193' cy='601' r='7' fill='#ff0000' stroke='none' />
-  <circle id='__dot_Stampede' cx='601' cy='689' r='7' fill='#866846' stroke='none' />
-  <circle id='__dot_Slackware' cx='164' cy='667' r='7' fill='#000' stroke='none' />
-  <circle id='__dot_SLS' cx='51' cy='645' r='7' fill='#9c8ac4' stroke='none' />
+  <circle id='__dot_Bicom__Systems__PBXware' cx='2182' cy='425' r='7' fill='#39C000' stroke='none' />
+  <circle id='__dot_Gentoox' cx='1126' cy='777' r='7' fill='#0050ff' stroke='none' />
+  <circle id='__dot_AnikOS' cx='1948' cy='469' r='7' fill='#333333' stroke='none' />
+  <circle id='__dot_CoreOS' cx='2185' cy='491' r='7' fill='#419EDA' stroke='none' />
+  <circle id='__dot_Google__Chrome__OS' cx='1818' cy='535' r='7' fill='#224488' stroke='none' />
+  <circle id='__dot_Chromium__OS' cx='1818' cy='513' r='7' fill='#224488' stroke='none' />
+  <circle id='__dot_GaryOS' cx='2220' cy='557' r='7' fill='#333333' stroke='none' />
+  <circle id='__dot_VLOS' cx='1901' cy='601' r='7' fill='#718969' stroke='none' />
+  <circle id='__dot_Funtoo' cx='1676' cy='579' r='7' fill='#333399' stroke='none' />
+  <circle id='__dot_SystemRescueCD' cx='1626' cy='623' r='7' fill='#508fee' stroke='none' />
+  <circle id='__dot_Calculate' cx='1552' cy='645' r='7' fill='#faa61a' stroke='none' />
+  <circle id='__dot_Kororaa' cx='1404' cy='667' r='7' fill='#706f7f' stroke='none' />
+  <circle id='__dot_RR4' cx='1385' cy='689' r='7' fill='#e9b689' stroke='none' />
+    <circle cx='1472' cy='689' r='5' fill='#e9b689' stroke='none' />
+  <circle id='__dot_epiOS' cx='1326' cy='711' r='7' fill='#2181B0' stroke='none' />
+  <circle id='__dot_VidaLinux' cx='1285' cy='733' r='7' fill='#718969' stroke='none' />
+    <circle cx='1378' cy='733' r='5' fill='#718969' stroke='none' />
+  <circle id='__dot_Navyn__OS' cx='1251' cy='755' r='7' fill='#224488' stroke='none' />
+  <circle id='__dot_Enoch' cx='735' cy='447' r='7' fill='#a0a0f0' stroke='none' />
+    <circle cx='801' cy='447' r='5' fill='#a0a0f0' stroke='none' />
+    <circle cx='901' cy='447' r='5' fill='#a0a0f0' stroke='none' />
+    <circle cx='1034' cy='447' r='5' fill='#a0a0f0' stroke='none' />
+  <circle id='__dot_FreeBSD' cx='193' cy='821' r='7' fill='#ff0000' stroke='none' />
+  <circle id='__dot_Stampede' cx='601' cy='909' r='7' fill='#866846' stroke='none' />
+  <circle id='__dot_Slackware' cx='164' cy='887' r='7' fill='#000' stroke='none' />
+  <circle id='__dot_SLS' cx='51' cy='865' r='7' fill='#9c8ac4' stroke='none' />
 </g>
 
 <g inkscape:label='Icons' inkscape:groupmode='layer' id='layer_icons'>
@@ -757,123 +830,143 @@ style='opacity:0.6;' >
 
 <g inkscape:label='Labels' inkscape:groupmode='layer' id='layer_labels' 
  style='font-size:14px;stroke:none;fill:#000;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;' >
-  <rect x='1653' y='56' width='55' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://exherbo.org/'><text x='1655' y='68'  >Exherbo</text></a>
-  <rect x='1231' y='122' width='48' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.ututo.org/'><text x='1233' y='134'  >Ututo-e</text></a>
-  <rect x='890' y='100' width='35' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.ututo.org/'><text x='892' y='112'  >Ututo</text></a>
-    <rect x='1354' y='100' width='59' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-    <a xlink:href='http://www.ututo.org/'><text x='1356' y='112' >Ututo XS</text></a>
-  <rect x='1144' y='166' width='33' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://jollix.berlios.de/de/'><text x='1146' y='178'  >Jollix</text></a>
-  <rect x='1290' y='188' width='66' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.vidalinux.com/'><text x='1292' y='200'  >VidaLinux</text></a>
-    <rect x='1381' y='188' width='38' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-    <a xlink:href='http://www.vidalinux.com/'><text x='1383' y='200' >VLOS</text></a>
-  <rect x='1331' y='210' width='40' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://linux.wikia.com/wiki/EpiOS'><text x='1333' y='222'  >epiOS</text></a>
-  <rect x='1408' y='232' width='42' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://bintoo.sourceforge.net/'><text x='1410' y='244'  >Bintoo</text></a>
-  <rect x='1498' y='254' width='43' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.papuglinux.net/'><text x='1500' y='266'  >Papug</text></a>
-  <rect x='1605' y='276' width='46' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://toorox.de/'><text x='1607' y='288'  >Toorox</text></a>
-  <rect x='1681' y='298' width='45' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.funtoo.org/'><text x='1683' y='310'  >Funtoo</text></a>
-  <rect x='1856' y='320' width='93' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://dev.chromium.org/chromium-os'><text x='1858' y='332'  >Chromium OS</text></a>
-  <rect x='1131' y='540' width='55' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://gentoox.shallax.com/'><text x='1133' y='552'  >Gentoox</text></a>
-  <rect x='1953' y='364' width='49' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.anikos.org/'><text x='1955' y='376'  >AnikOS</text></a>
+  <rect x='1231' y='78' width='48' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.ututo.org/'><text x='1233' y='90'  >Ututo-e</text></a>
+  <rect x='890' y='56' width='35' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.ututo.org/'><text x='892' y='68'  >Ututo</text></a>
+    <rect x='1354' y='56' width='59' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='http://www.ututo.org/'><text x='1356' y='68' >Ututo XS</text></a>
+  <rect x='1299' y='122' width='71' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://gobolinux.org'><text x='1301' y='134'  >GoboLinux</text></a>
+  <rect x='1653' y='144' width='55' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://exherbo.org/'><text x='1655' y='156'  >Exherbo</text></a>
+  <rect x='1144' y='188' width='33' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://jollix.berlios.de/de/'><text x='1146' y='200'  >Jollix</text></a>
+  <rect x='1281' y='210' width='83' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://knopperdisk.knopper.tk/'><text x='1283' y='222'  >Knopperdisk</text></a>
+  <rect x='1323' y='232' width='47' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.pentoo.ch/'><text x='1325' y='244'  >Pentoo</text></a>
+  <rect x='1348' y='254' width='47' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='1350' y='266'  >Pardus</text></a>
+  <rect x='1408' y='276' width='42' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://bintoo.sourceforge.net/'><text x='1410' y='288'  >Bintoo</text></a>
+  <rect x='1498' y='298' width='43' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.papuglinux.net/'><text x='1500' y='310'  >Papug</text></a>
+  <rect x='1605' y='320' width='46' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://toorox.de/'><text x='1607' y='332'  >Toorox</text></a>
+  <rect x='1672' y='342' width='88' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://opensource.dyc.edu/tinhat'><text x='1674' y='354'  >Tin Hat Linux</text></a>
+  <rect x='1731' y='364' width='49' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://fireballiso.sourceforge.net/'><text x='1733' y='376'  >Fireball</text></a>
   <rect x='1849' y='386' width='53' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
   <a xlink:href='http://dee.su/liberte'><text x='1851' y='398'  >Liberté</text></a>
-  <rect x='1631' y='408' width='119' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.sysresccd.org/'><text x='1633' y='420'  >SystemRescueCD</text></a>
-  <rect x='1557' y='430' width='62' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.calculate-linux.org/'><text x='1559' y='442'  >Calculate</text></a>
-  <rect x='1409' y='452' width='53' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://en.wikipedia.org/wiki/Kororaa'><text x='1411' y='464'  >Kororaa</text></a>
-  <rect x='1390' y='474' width='29' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://sabayonlinux.org/'><text x='1392' y='486'  >RR4</text></a>
-    <rect x='1475' y='474' width='59' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-    <a xlink:href='http://sabayonlinux.org/'><text x='1477' y='486' >Sabayon</text></a>
-  <rect x='1323' y='496' width='47' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.pentoo.ch/'><text x='1325' y='508'  >Pentoo</text></a>
-  <rect x='1256' y='518' width='67' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://distrowatch.com/table.php?distribution=navynos'><text x='1258' y='530'  >Navyn OS</text></a>
-  <rect x='740' y='342' width='42' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.gentoo.org/'><text x='742' y='354'  >Enoch</text></a>
-    <rect x='804' y='342' width='48' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-    <a xlink:href='http://www.gentoo.org/'><text x='806' y='354' >Gentoo</text></a>
-    <rect x='904' y='342' width='101' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-    <a xlink:href='http://www.gentoo.org'><text x='906' y='354' >Gentoo 1.0_rc3</text></a>
-    <rect x='1037' y='342' width='72' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-    <a xlink:href='http://www.gentoo.org'><text x='1039' y='354' >Gentoo 1.0</text></a>
-  <rect x='198' y='584' width='60' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='https://en.wikipedia.org/wiki/FreeBSD'><text x='200' y='596'  >FreeBSD</text></a>
-  <rect x='606' y='672' width='67' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.stampede.org/'><text x='608' y='684'  >Stampede</text></a>
-  <rect x='169' y='650' width='69' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://www.slackware.com/'><text x='171' y='662'  >Slackware</text></a>
-  <rect x='56' y='628' width='28' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
-  <a xlink:href='http://en.wikipedia.org/wiki/Softlanding_Linux_System'><text x='58' y='640'  >SLS</text></a>
+  <rect x='2187' y='408' width='168' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.bicomsystems.com/download/'><text x='2189' y='420'  >Bicom Systems PBXware</text></a>
+  <rect x='1131' y='760' width='55' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://gentoox.shallax.com/'><text x='1133' y='772'  >Gentoox</text></a>
+  <rect x='1953' y='452' width='49' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.anikos.org/'><text x='1955' y='464'  >AnikOS</text></a>
+  <rect x='2190' y='474' width='53' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://coreos.com/'><text x='2192' y='486'  >CoreOS</text></a>
+  <rect x='1823' y='518' width='130' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://dev.chromium.org/chromium-os'><text x='1825' y='530'  >Google Chrome OS</text></a>
+  <rect x='1823' y='496' width='93' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://dev.chromium.org/chromium-os'><text x='1825' y='508'  >Chromium OS</text></a>
+  <rect x='2225' y='540' width='51' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://github.com/garybgenett/gary-os'><text x='2227' y='552'  >GaryOS</text></a>
+  <rect x='1906' y='584' width='38' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://os.vidalinux.org/'><text x='1908' y='596'  >VLOS</text></a>
+  <rect x='1681' y='562' width='45' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.funtoo.org/'><text x='1683' y='574'  >Funtoo</text></a>
+  <rect x='1631' y='606' width='119' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.sysresccd.org/'><text x='1633' y='618'  >SystemRescueCD</text></a>
+  <rect x='1557' y='628' width='62' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.calculate-linux.org/'><text x='1559' y='640'  >Calculate</text></a>
+  <rect x='1409' y='650' width='53' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://en.wikipedia.org/wiki/Kororaa'><text x='1411' y='662'  >Kororaa</text></a>
+  <rect x='1390' y='672' width='29' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://sabayonlinux.org/'><text x='1392' y='684'  >RR4</text></a>
+    <rect x='1475' y='672' width='59' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='http://sabayonlinux.org/'><text x='1477' y='684' >Sabayon</text></a>
+  <rect x='1331' y='694' width='40' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://linux.wikia.com/wiki/EpiOS'><text x='1333' y='706'  >epiOS</text></a>
+  <rect x='1290' y='716' width='66' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.vidalinux.com/'><text x='1292' y='728'  >VidaLinux</text></a>
+    <rect x='1381' y='716' width='38' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='http://www.vidalinux.com/'><text x='1383' y='728' >VLOS</text></a>
+  <rect x='1256' y='738' width='67' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://distrowatch.com/table.php?distribution=navynos'><text x='1258' y='750'  >Navyn OS</text></a>
+  <rect x='740' y='430' width='42' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.gentoo.org/'><text x='742' y='442'  >Enoch</text></a>
+    <rect x='804' y='430' width='48' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='http://www.gentoo.org/'><text x='806' y='442' >Gentoo</text></a>
+    <rect x='904' y='430' width='101' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='http://www.gentoo.org'><text x='906' y='442' >Gentoo 1.0_rc3</text></a>
+    <rect x='1037' y='430' width='72' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href='http://www.gentoo.org'><text x='1039' y='442' >Gentoo 1.0</text></a>
+  <rect x='198' y='804' width='60' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='https://en.wikipedia.org/wiki/FreeBSD'><text x='200' y='816'  >FreeBSD</text></a>
+  <rect x='606' y='892' width='67' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.stampede.org/'><text x='608' y='904'  >Stampede</text></a>
+  <rect x='169' y='870' width='69' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://www.slackware.com/'><text x='171' y='882'  >Slackware</text></a>
+  <rect x='56' y='848' width='28' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href='http://en.wikipedia.org/wiki/Softlanding_Linux_System'><text x='58' y='860'  >SLS</text></a>
 </g>
 
 <g inkscape:label='Yearlines' inkscape:groupmode='layer' id='layer_yearlines' 
  style='stroke:none;fill:url(#__yearline);' >
   <rect x='0' y='0' rx='5' ry='5' width='2420' height='40' />
-  <rect x='0' y='722' rx='5' ry='5' width='2420' height='40' />
+  <rect x='0' y='942' rx='5' ry='5' width='2420' height='40' />
   <g style='font-size:22px;stroke:none;fill:#fff;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;text-anchor:middle;' >
     <text x='60' y='28'><tspan>1992</tspan></text>
-    <text x='60' y='750'><tspan>1992</tspan></text>
+    <text x='60' y='970'><tspan>1992</tspan></text>
     <text x='160' y='28'><tspan>1993</tspan></text>
-    <text x='160' y='750'><tspan>1993</tspan></text>
+    <text x='160' y='970'><tspan>1993</tspan></text>
     <text x='260' y='28'><tspan>1994</tspan></text>
-    <text x='260' y='750'><tspan>1994</tspan></text>
+    <text x='260' y='970'><tspan>1994</tspan></text>
     <text x='360' y='28'><tspan>1995</tspan></text>
-    <text x='360' y='750'><tspan>1995</tspan></text>
+    <text x='360' y='970'><tspan>1995</tspan></text>
     <text x='460' y='28'><tspan>1996</tspan></text>
-    <text x='460' y='750'><tspan>1996</tspan></text>
+    <text x='460' y='970'><tspan>1996</tspan></text>
     <text x='560' y='28'><tspan>1997</tspan></text>
-    <text x='560' y='750'><tspan>1997</tspan></text>
+    <text x='560' y='970'><tspan>1997</tspan></text>
     <text x='660' y='28'><tspan>1998</tspan></text>
-    <text x='660' y='750'><tspan>1998</tspan></text>
+    <text x='660' y='970'><tspan>1998</tspan></text>
     <text x='760' y='28'><tspan>1999</tspan></text>
-    <text x='760' y='750'><tspan>1999</tspan></text>
+    <text x='760' y='970'><tspan>1999</tspan></text>
     <text x='860' y='28'><tspan>2000</tspan></text>
-    <text x='860' y='750'><tspan>2000</tspan></text>
+    <text x='860' y='970'><tspan>2000</tspan></text>
     <text x='960' y='28'><tspan>2001</tspan></text>
-    <text x='960' y='750'><tspan>2001</tspan></text>
+    <text x='960' y='970'><tspan>2001</tspan></text>
     <text x='1060' y='28'><tspan>2002</tspan></text>
-    <text x='1060' y='750'><tspan>2002</tspan></text>
+    <text x='1060' y='970'><tspan>2002</tspan></text>
     <text x='1160' y='28'><tspan>2003</tspan></text>
-    <text x='1160' y='750'><tspan>2003</tspan></text>
+    <text x='1160' y='970'><tspan>2003</tspan></text>
     <text x='1260' y='28'><tspan>2004</tspan></text>
-    <text x='1260' y='750'><tspan>2004</tspan></text>
+    <text x='1260' y='970'><tspan>2004</tspan></text>
     <text x='1360' y='28'><tspan>2005</tspan></text>
-    <text x='1360' y='750'><tspan>2005</tspan></text>
+    <text x='1360' y='970'><tspan>2005</tspan></text>
     <text x='1460' y='28'><tspan>2006</tspan></text>
-    <text x='1460' y='750'><tspan>2006</tspan></text>
+    <text x='1460' y='970'><tspan>2006</tspan></text>
     <text x='1560' y='28'><tspan>2007</tspan></text>
-    <text x='1560' y='750'><tspan>2007</tspan></text>
+    <text x='1560' y='970'><tspan>2007</tspan></text>
     <text x='1660' y='28'><tspan>2008</tspan></text>
-    <text x='1660' y='750'><tspan>2008</tspan></text>
+    <text x='1660' y='970'><tspan>2008</tspan></text>
     <text x='1760' y='28'><tspan>2009</tspan></text>
-    <text x='1760' y='750'><tspan>2009</tspan></text>
+    <text x='1760' y='970'><tspan>2009</tspan></text>
     <text x='1860' y='28'><tspan>2010</tspan></text>
-    <text x='1860' y='750'><tspan>2010</tspan></text>
+    <text x='1860' y='970'><tspan>2010</tspan></text>
     <text x='1960' y='28'><tspan>2011</tspan></text>
-    <text x='1960' y='750'><tspan>2011</tspan></text>
+    <text x='1960' y='970'><tspan>2011</tspan></text>
     <text x='2060' y='28'><tspan>2012</tspan></text>
-    <text x='2060' y='750'><tspan>2012</tspan></text>
+    <text x='2060' y='970'><tspan>2012</tspan></text>
     <text x='2160' y='28'><tspan>2013</tspan></text>
-    <text x='2160' y='750'><tspan>2013</tspan></text>
+    <text x='2160' y='970'><tspan>2013</tspan></text>
     <text x='2260' y='28'><tspan>2014</tspan></text>
-    <text x='2260' y='750'><tspan>2014</tspan></text>
+    <text x='2260' y='970'><tspan>2014</tspan></text>
     <text x='2360' y='28'><tspan>2015</tspan></text>
-    <text x='2360' y='750'><tspan>2015</tspan></text>
+    <text x='2360' y='970'><tspan>2015</tspan></text>
   </g>
 </g>
 
@@ -881,7 +974,7 @@ style='opacity:0.6;' >
  style='stroke:none;fill:#000;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;' >
   <rect x='30' y='90' width='610' height='140' rx='10' ry='10' fill='#000' filter='url(#__infobox_shadow)' opacity='0.6' />
   <rect x='30' y='90' width='610' height='140' rx='10' ry='10' fill='url(#__infobox_fill)' stroke='url(#__infobox_stroke)' stroke-width='2' />
-  <text x='41' y='128'><tspan style='font-size:32px;font-weight:bold;'>Gentoo Ecosystem</tspan></text>
+  <text x='41' y='128'><tspan style='font-size:32px;font-weight:bold;'>The Gentoo Ecosystem</tspan></text>
   <text x='41' y='151'><tspan style='font-size:16px;'>Version 14.11</tspan></text>
   <text x='41' y='171'><tspan style='font-size:16px;'>D. Robbins, mitzip - <tspan style='font-weight:bold'>funtoo.org</tspan></tspan></text>
   <text x='41' y='191'><tspan style='font-size:16px;'>Thanks A. Lundqvist, D. Rodic - <tspan style='font-weight:bold'>futurist.se/gldt</tspan> for gnuclad</tspan></text>
