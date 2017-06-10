@@ -1,0 +1,13 @@
+
+Gentoox
+
+http://gentoox.shallax.com/
+https://en.wikipedia.org/wiki/Gentoox
+
+First release -unknown-
+Last release 1/2009
+
+Wikipedia:
+Gentoox is an operating system based on Gentoo Linux, created 
+especially for the Xbox by Thomas Pedley. Gentoox requires a modchip 
+or a software mod to run, as it is not authorized Microsoft software.

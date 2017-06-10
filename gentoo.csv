@@ -27,9 +27,9 @@
 ,,,,,,,,,,,,,,
 "#","Nodes",,,,,,,,,,,,,
 "#","Name","Color","Parent","Start","Stop","Icon","Description","[Namechange","When","Description","[Namechange","When","Description",". . . ]]"
-"N","Ututo","#ba3232",,"2000.10",,,"http://www.ututo.org/","Ututo XS","2005.6","http://www.ututo.org/",,,,
-"N","Ututo-e","#d30110","Ututo","2004.3",,,"http://www.ututo.org/",,,,,,,
-"N","GoboLinux","#B0E0F0",,"2004.11.7",,,"http://gobolinux.org",,,,,,,
+"N","Ututo","#ba3232",,"2000.10","2012.4",,"http://www.ututo.org/","Ututo XS","2005.6","http://www.ututo.org/",,,,
+"N","Ututo-e","#d30110","Ututo","2004.3","2012.4",,"http://www.ututo.org/",,,,,,,
+"N","GoboLinux","#B0E0F0",,"2003.5.9",,,"http://gobolinux.org/",,,,,,,
 "N","Exherbo","#006600",,"2008.5.20",,,"http://exherbo.org/",,,,,,,
 "N","Enoch","#a0a0f0",,"1999.4",,,"http://www.gentoo.org/","Gentoo","1999.12","http://www.gentoo.org/","Gentoo 1.0_rc3","2000.12","http://www.gentoo.org","Gentoo 1.0","2002.3.31","http://www.gentoo.org",
 "N","Gentoox","#0050ff","Enoch","2003.3","2009.01.28,,"http://gentoox.shallax.com/",,,,,,,

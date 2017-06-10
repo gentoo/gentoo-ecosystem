@@ -1,0 +1,12 @@
+GoboLinux
+
+
+https://gobolinux.org/
+https://en.wikipedia.org/wiki/GoboLinux
+
+First release May 2003
+Very much active 
+
+Different file system layout
+
+Not based directly on Gentoo (anymore?), own build system

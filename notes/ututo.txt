@@ -1,0 +1,34 @@
+Ututo
+
+http://www.ututo.org
+https://en.wikipedia.org/wiki/Ututo
+
+Still very much alive, but now mostly based on Ubuntu
+(that's the Ututo UL variant)
+
+Citing from the homepage, via Google Translate:
+
+It is an Ubuntu 64 iso, to which the packages and non-free 
+repositories were removed and the nucleus replaced by a free one. The
+scripts for doing that task are here.
+
+The idea is to serve the original purpose of Ututo: distribute 
+Simusol. And of course keep your two characteristics relevant:
+* Operate without installing in an extremely simple,
+* And be 100% free. 
+
+The aim of the project is to encourage and promote the generation and
+appropiation of knowledge in developing countries, reducing the (so
+called) digital divide.
+
+In this opportunity, after a two-year break, the Ututo project meets
+the presentation and distribution of the free SimuSol software.
+SimuSol facilitates the description and simulation of different
+physical circuits and their numerical simulation.
+
+
+The original version (?) and for sure the XS variant were based on
+Gentoo, as was probably the desktop variant Ututo-e.
+
+The last release of the XS variant was 2012.04, not sure about the e 
+variant.

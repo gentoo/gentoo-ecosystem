@@ -1,0 +1,13 @@
+
+Jollix
+
+LiveCD based on Gentoo
+Dead
+
+https://distrowatch.com/table.php?distribution=jollix
+https://fr.wikipedia.org/wiki/Jollix
+
+First release 17-04-2003
+Last release 12-05-2004
+
+Was rather shortlived
