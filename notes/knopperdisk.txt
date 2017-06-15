@@ -1,0 +1,19 @@
+
+Knopperdisk
+
+http://knopperdisk.knopper.tk/
+https://distrowatch.com/table.php?distribution=knopperdisk
+https://en.wikipedia.org/wiki/Knopperdisk
+
+
+Dead
+
+
+From Wikipedia:
+
+Knopperdisk is an operating system specifically designed for a USB pen 
+drive and floppy disks. Knopperdisk is a fairly minimal, text system 
+that can be used as a rescue disk, although the USB pen drive version
+has a few more software packages installed which are used for different 
+purposes.
+Despite the similarity in name to Knoppix, it is based on Gentoo Linux.
