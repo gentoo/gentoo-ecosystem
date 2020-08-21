@@ -1,0 +1,22 @@
+certificate version 0.1
+pusher 94BFDF4484AD142F 1598043827 +0300
+pushee git+ssh://git.gentoo.org/proj/gentoo-ecosystem.git
+nonce 1598043827-33b3132c83605a9da71f6edfacff0add32e67ba9
+
+6dd275963801083dbd50fed8fcd469efed5bb2ea 9d25d53417f955db89d4474f42efbc8959825348 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEE2dlecvcVU8/ThuQ/jJJgxvbXoxAFAl9ANrMACgkQjJJgxvbX
+oxBOGRAAxx4qTJmnWwThz9nlF1W6SIweNHWHU/vxDryB4r0KbeoJqVT8ubG50BlO
+chFXRBhRY3ftjDJ4TvVrx5rRuYZH+HsfLbKtixMuEqlufPpZ+YlHaKcqdV76fAhC
+5g23+JmYgoSJwDIJCxL6Ep/K05BMH31rvI445qeI1lwMe96BYvB1ssDX68g6/H0w
+yJSo/yb8VXyx0koeBniM5Ipjmv2t4y8aohP/JJyPnNH2k0aDwBqx3RfPK9EhdG/6
+jZmIvSqBmAGGSbkVE/Bvo567lXqo1CDLp3pvolYmL8ug4eULmi40daxQj09OBjFn
+xegDDj0wk0+j3KMHxM7K9UahFSxTKBntPWcbEHC89GSd0GAxhZJEmgsPS3NdB2GI
+P7zcXYsxRvm2px6uVq5i/c93J4P5Wtic9bxAl5JdW+pSD2PZpEfvNy6JFsiGn7zX
+v7aVJyy7Ayh7DFrlgFUkVqZnPITcn8gWw6nQQbpih/dk4Fu7jW+A6YGs7Ya+NvVk
+1ecqkNBhtFEaGzbIxFkUev2LnKzqGrwRxTMX/X8D5FnsIzoYYAueErQsntpHoPhO
+w3ROUMLiDHmHKzYRSv7/JEIFoAw9Vxo9F98RT3oLYuzpcm7XqFf5Y2I5ZFOxCNpn
+WD/rtFrHyA+g3ZzVZqSVpW00lRZKCWKwkSC2xPkZdSI9Dwr6RbM=
+=SGod
+-----END PGP SIGNATURE-----
