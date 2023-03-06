@@ -11,3 +11,6 @@ gentoo.pdf: gentoo.svg
 
 gentoo.png: gentoo.pdf
 	convert -geometry 2000 -density 200 gentoo.pdf gentoo.png
+
+upload: gentoo.pdf
+	scp gentoo.pdf dev.gentoo.org:public_html/ecosystem.pdf
